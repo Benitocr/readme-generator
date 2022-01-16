@@ -15,15 +15,26 @@ function renderLicenseBadge(license) {
             return ''
             break;
     }
-    // if (license === 'NONE'){
-    //     return '';
-    // }
-    // return '![license](https://img.shields.io/badge/Licence-MIT-blue)';
+   
 }
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
+    switch(license){
+        case "ISC Licence":
+            return '[ISC license](https://choosealicense.com/licenses/isc/)'
+            break;
+        case "MIT License":
+            return '[MIT license](https://choosealicense.com/licenses/mit/)'
+            break;
+        case "GNU General Public License v3.0":
+            return '[GNU General Public License v3.0](https://choosealicense.com/licenses/gpl-3.0/)'
+            break;
+        case "NONE":
+            return ''
+            break;
+    }
 
 }
 
@@ -54,6 +65,8 @@ function generateMarkdown(data) {
   ${data.test}
   ## Credits
   ${new Date().getFullYear()} by ${data.name}
+  ## License
+  Licensed under the ${renderLicenseLink(data.licence)}
 
 
 `;
