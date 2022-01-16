@@ -131,7 +131,7 @@ const questions = () =>{
             
             {
                 type: 'list',
-                name: 'licence',
+                name: 'license',
                 message: 'Please select the type of licence for your project ',
                 choices: ['ISC Licence', 'MIT License', 'GNU General Public License v3.0', 'NONE'],
                 default: '1'
@@ -158,7 +158,7 @@ function init() {
     // writeToFile ('README.md', '#name of Readme');
     questions()
      .then(answears => {
-         console.log(answears.licence);
+        //  console.log(answears.license);
          const file = generateReadme(answears);
          writeToFile('README.md', file);
         });
@@ -174,5 +174,5 @@ function init() {
 
 // Function call to initialize app
 init()
-    // .then(answears => console.log(answears));
+
     

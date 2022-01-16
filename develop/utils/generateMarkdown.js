@@ -23,16 +23,16 @@ function renderLicenseBadge(license) {
 function renderLicenseLink(license) {
     switch(license){
         case "ISC Licence":
-            return '[ISC license](https://choosealicense.com/licenses/isc/)'
+            return `Licensed under the [ISC license](https://choosealicense.com/licenses/isc/)`
             break;
         case "MIT License":
-            return '[MIT license](https://choosealicense.com/licenses/mit/)'
+            return `Licensed under the [MIT license](https://choosealicense.com/licenses/mit/)`
             break;
         case "GNU General Public License v3.0":
-            return '[GNU General Public License v3.0](https://choosealicense.com/licenses/gpl-3.0/)'
+            return `Licensed under the [GNU General Public License v3.0](https://choosealicense.com/licenses/gpl-3.0/)`
             break;
         case "NONE":
-            return ''
+            return ``
             break;
     }
 
@@ -43,49 +43,66 @@ function renderLicenseLink(license) {
 function renderLicenseSection(license) {
     switch(license){
         case "ISC Licence":
-            return `## License
-            Licensed under the `
+            return `## License`
             break;
         case "MIT License":
-            return `## License
-            Licensed under the `
+            return `## License`
             break;
         case "GNU General Public License v3.0":
-            return `## License
-            Licensed under the `
+            return `## License`
             break;
         case "NONE":
             return ``
             break;
-
-    };
+    }
 }
 
+function renderLicenseSectionreadme(license) {
+    switch(license){
+        case "ISC Licence":
+            return `* [License](#license)`
+            break;
+        case "MIT License":
+            return `* [License](#license)`
+            break;
+        case "GNU General Public License v3.0":
+            return `* [License](#license)`
+            break;
+        case "NONE":
+            return ``
+            break;
+    }
+}
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
 
 
   return `
   # ${data.title}
-  ${renderLicenseBadge(data.licence)}
+  ${renderLicenseBadge(data.license)}
   ## Description
   ${data.description}
   ## Table of contents
 * [Installation](#installation)
 * [Usage](#usage)
+${renderLicenseSectionreadme(data.license)}
+* [Questions](#questions)
 * [Credits](#credits)
-  ## Installation
-  ${data.installation}
-  ## Usage
-  ${data.usage}
-  ## Contributing
-  ${data.contributing}
-  ## Tests
-  ${data.test}
-  ${renderLicenseSection(data.licence)}${renderLicenseLink(data.licence)}
-  ## Credits
-  ${new Date().getFullYear()} by ${data.name}
-
+## Installation
+${data.installation}
+## Usage
+${data.usage}
+## Contributing
+${data.contributing}
+## Tests
+${data.test}
+${renderLicenseSection(data.license)} 
+${renderLicenseLink(data.license)}
+## Questions
+Repo in [Github](https://github.com/${data.githubUser})
+or email me at ${data.email}
+## Credits
+${new Date().getFullYear()} by ${data.name}
 `;
 }
 
