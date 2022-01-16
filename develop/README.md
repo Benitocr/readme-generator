@@ -1,6 +1,6 @@
 
-  # Readme app 7
-    ![license](https://img.shields.io/badge/Licence-MIT-blue)
+  # readme 8
+  ![license](https://img.shields.io/badge/Licence-MIT-blue)
   ## Description
   description
   ## Table of contents
@@ -8,7 +8,7 @@
 * [Usage](#usage)
 * [Credits](#credits)
   ## Installation
-  insta
+  instalation
   ## Usage
   usage
   ## Contributing
