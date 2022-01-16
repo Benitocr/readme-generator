@@ -1,8 +1,8 @@
 
-  # Application Name
-  ![license](https://img.shields.io/badge/Licence-ISC-blue)
+  # Readme generator application
+  ![license](https://img.shields.io/badge/Licence-MIT-blue)
   ## Description
-  Project Description
+  Description of application a;lkdfjadlfk  alkdfjaskdf asldfkjads f
   ## Table of contents
 * [Installation](#installation)
 * [Usage](#usage)
@@ -10,17 +10,17 @@
 * [Questions](#questions)
 * [Credits](#credits)
 ## Installation
-Instalation instructions
+Instalation Instructions kkjasdf asfkalfj akfjakjakldjfa lkajkflaj fallkj afklja dfkaj
 ## Usage
-Usage Info
+Usage Information kajfkajd fajsdfklaj sdfklja sfdlkja akljfaklf ajfkladjk faljf alk
 ## Contributing
-Contribution
+Contribution akljfdalk sjfalks alkdfja lskfjakl dsfklajf klajf klaldkfla 
 ## Tests
-Test
+Test Instructions  lkafja ksdfjlkasf ldkfjakl fkla faf ajkfjakldj fklajfdklaj 
 ## License 
-Licensed under the [ISC license](https://choosealicense.com/licenses/isc/)
+Licensed under the [MIT license](https://choosealicense.com/licenses/mit/)
 ## Questions
 Repo in [Github](https://github.com/Benitocr)
-or email me at benito@gmail.com
+or email me at benitocavazosr@yahoo.com
 ## Credits
 2022 by Benito Cavazos
