@@ -26,6 +26,32 @@ const questions = () =>{
             },
             {
                 type: 'input',
+                name: 'githubUser',
+                message: 'Please enter your github username for questions in regards your project',
+                validate: nameInput => {
+                    if(nameInput){
+                        return true
+                    } else{
+                        console.log('Please enter your github username!');
+                        return false;
+                    }
+                }
+            },
+            {
+                type: 'input',
+                name: 'email',
+                message: 'Please enter your email in order to reach you for questions of your project',
+                validate: nameInput => {
+                    if(nameInput){
+                        return true
+                    } else{
+                        console.log('Please enter your email!');
+                        return false;
+                    }
+                }
+            },
+            {
+                type: 'input',
                 name:'title',
                 message: 'What is your project title?',
                 validate: nameInput => {
@@ -102,32 +128,7 @@ const questions = () =>{
                     }
                 }
             },
-            {
-                type: 'input',
-                name: 'githubUser',
-                message: 'Please enter your github username for questions in regards your project',
-                validate: nameInput => {
-                    if(nameInput){
-                        return true
-                    } else{
-                        console.log('Please enter your test instructions!');
-                        return false;
-                    }
-                }
-            },
-            {
-                type: 'input',
-                name: 'email',
-                message: 'Please enter your email in order to reach you for questions of your project',
-                validate: nameInput => {
-                    if(nameInput){
-                        return true
-                    } else{
-                        console.log('Please enter your test instructions!');
-                        return false;
-                    }
-                }
-            },
+            
             
             {
                 type: 'list',
