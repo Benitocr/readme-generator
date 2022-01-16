@@ -82,11 +82,9 @@ function generateMarkdown(data) {
   ${data.contributing}
   ## Tests
   ${data.test}
+  ${renderLicenseSection(data.licence)}${renderLicenseLink(data.licence)}
   ## Credits
   ${new Date().getFullYear()} by ${data.name}
-  ${renderLicenseSection(data.licence)}
-  ${renderLicenseLink(data.licence)}
-
 
 `;
 }

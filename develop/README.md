@@ -1,24 +1,22 @@
 
-  # readme 13
+  # redme 14
   ![license](https://img.shields.io/badge/Licence-ISC-blue)
   ## Description
-  description
+  descr
   ## Table of contents
 * [Installation](#installation)
 * [Usage](#usage)
 * [Credits](#credits)
   ## Installation
-  instalation
+  insta
   ## Usage
   usage
   ## Contributing
   contr
   ## Tests
   test
+  ## License
+            Licensed under the [ISC license](https://choosealicense.com/licenses/isc/)
   ## Credits
   2022 by Benito Cavazos
-  ## License
-            Licensed under the 
-  [ISC license](https://choosealicense.com/licenses/isc/)
-
 
