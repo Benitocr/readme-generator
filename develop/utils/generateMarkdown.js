@@ -4,7 +4,7 @@ function renderLicenseBadge(license) {
     if (license === 'NONE'){
         return '';
     }
-    return '[![license](https://img.shields.io/badge/Licence-MIT-blue)]';
+    return '![license](https://img.shields.io/badge/Licence-MIT-blue)';
 }
 
 // TODO: Create a function that returns the license link
