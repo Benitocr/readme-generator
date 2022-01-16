@@ -1,21 +1,21 @@
 
-  # Readme app 5
+  # readme app
+    [![license](https://img.shields.io/badge/Licence-MIT-blue)]
   ## Description
-  decripton 5
+  adding badge
   ## Table of contents
 * [Installation](#installation)
 * [Usage](#usage)
 * [Credits](#credits)
-* [License](#license)
   ## Installation
-  instruciton 5
+  inst
   ## Usage
   usage
   ## Contributing
   contr
   ## Tests
   test
-  ##
+  ## Credits
   2022 by Benito Cavazos
 
 
