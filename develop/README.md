@@ -1,22 +1,21 @@
 
-  # redme 14
+  # title
   ![license](https://img.shields.io/badge/Licence-ISC-blue)
   ## Description
-  descr
+  ad
   ## Table of contents
 * [Installation](#installation)
 * [Usage](#usage)
 * [Credits](#credits)
   ## Installation
-  insta
+  ads
   ## Usage
-  usage
+  ad
   ## Contributing
-  contr
+  ad
   ## Tests
-  test
-  ## License
+  ad## License
             Licensed under the [ISC license](https://choosealicense.com/licenses/isc/)
   ## Credits
-  2022 by Benito Cavazos
+  2022 by Benito CAvazos
 
