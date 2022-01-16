@@ -1,20 +1,20 @@
 
-  # My Readme Project
+  # README generator application
   ## Description
-  This is an app that helps you to generate a readme file with the minimum content and never forget to the headers to include
+  Description
   ## Table of contents
-    * [Installation](#installation)
-    * [Usage](#usage)
-    * [Credits](#credits)
-    * [License](#license)
+    [Installation](#installation)
+    [Usage](#usage)
+    [Credits](#credits)
+    [License](#license)
   ## Installation
-  to run this app you need to.....
+  Instalation
   ## Usage
-  you can use this app free.
+  usage
   ## Contributing
-  to contribuite to the project
+  contribuition
   ## Tests
-  in order to test follow....
+  test
   ##
   2022 by Benito Cavazos
 
