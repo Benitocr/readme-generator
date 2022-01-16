@@ -52,7 +52,7 @@ const questions = () =>{
             },
             {
                 type: 'input',
-                name: 'instalation',
+                name: 'installation',
                 message: 'Provide some Instalation Instructions',
                 validate: nameInput => {
                     if(nameInput){

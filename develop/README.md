@@ -1,21 +1,21 @@
 
-  # Tile
+  # My Readme Project
   ## Description
-  DEscription adnfajk fnakjfnkj kajbfa khba hkbahjbsdf jhabfhab sfbahjf ashjfha bfba hfkjda
+  This is an app that helps you to generate a readme file with the minimum content and never forget to the headers to include
   ## Table of contents
     * [Installation](#installation)
     * [Usage](#usage)
     * [Credits](#credits)
     * [License](#license)
-  ## Instalation
-  Instalation jkfdnajk sfnajsndfjasdnfajsdfnakjsdfakjnfakjnfakjfnb a jkjkfakj dfbakj bfd akbfdkdksjb dfba fbakfdhjb
+  ## Installation
+  to run this app you need to.....
   ## Usage
-  Usage Information al snfakj fajkf akbfadb fabf djhbafdbfahbfhabfbhja bhjfabjhbfa
+  you can use this app free.
   ## Contributing
-  Contribuiting guideline alokndfandf jansfkjafkjdnajk fdndakjnf ajfa dkjnfa jkf
+  to contribuite to the project
   ## Tests
-  For testing 
-  ## Credits
+  in order to test follow....
+  ##
   2022 by Benito Cavazos
 
 
