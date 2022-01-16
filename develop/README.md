@@ -1,6 +1,6 @@
 
   # readme app
-    [![license](https://img.shields.io/badge/Licence-MIT-blue)]
+  ![license](https://img.shields.io/badge/Licence-MIT-blue)
   ## Description
   adding badge
   ## Table of contents
