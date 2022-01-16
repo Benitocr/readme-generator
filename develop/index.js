@@ -14,6 +14,19 @@ const questions = () =>{
             {
                 type: 'input',
                 name:'name',
+                message: 'What is your Name?',
+                validate: nameInput => {
+                    if(nameInput){
+                        return true
+                    } else{
+                        console.log('Please enter your name!');
+                        return false;
+                    }
+                }
+            },
+            {
+                type: 'input',
+                name:'title',
                 message: 'What is your project title?',
                 validate: nameInput => {
                     if(nameInput){
@@ -146,7 +159,8 @@ function init() {
     questions()
      .then(answears => {
          console.log(answears.licence);
-         writeToFile('README.md', answears.name);
+         const file = generateReadme(answears);
+         writeToFile('README.md', file);
         });
      
      
