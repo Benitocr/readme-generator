@@ -1,20 +1,20 @@
 
-  # Readme generator app
+  # Readme app 5
   ## Description
-  Descritpion 4
+  decripton 5
   ## Table of contents
 * [Installation](#installation)
 * [Usage](#usage)
 * [Credits](#credits)
 * [License](#license)
   ## Installation
-  Instalation
+  instruciton 5
   ## Usage
-  USage
+  usage
   ## Contributing
-  Contr
+  contr
   ## Tests
-  testing
+  test
   ##
   2022 by Benito Cavazos
 
