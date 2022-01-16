@@ -1,5 +1,5 @@
 
-  # readme 16
+  # readme 17
   ![license](https://img.shields.io/badge/Licence-ISC-blue)
   ## Description
   desc
@@ -8,14 +8,15 @@
 * [Usage](#usage)
 * [Credits](#credits)
   ## Installation
-  inatal
+  inta
   ## Usage
   usage
   ## Contributing
   contr
   ## Tests
-  test ## License
+  test
+  ## License
             Licensed under the [ISC license](https://choosealicense.com/licenses/isc/)
   ## Credits
-  2022 by Benito cavazos
+  2022 by Benito Cavazos
 
