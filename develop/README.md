@@ -1,20 +1,20 @@
 
-  # README generator application
+  # Readme Generator application
   ## Description
-  Description
+  Description alkfaklsnf anfak nfaklnfsl kdklan fd
   ## Table of contents
-    [Installation](#installation)
-    [Usage](#usage)
-    [Credits](#credits)
-    [License](#license)
+    * [Installation](#installation)
+    * [Usage](#usage)
+    * [Credits](#credits)
+    * [License](#license)
   ## Installation
   Instalation
   ## Usage
-  usage
+  Usage
   ## Contributing
-  contribuition
+  Contribuition
   ## Tests
-  test
+  TEst
   ##
   2022 by Benito Cavazos
 
