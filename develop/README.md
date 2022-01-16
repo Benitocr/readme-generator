@@ -1,14 +1,14 @@
 
-  # readme 9
-  
+  # readme 11
+  ![license](https://img.shields.io/badge/Licence-ISC-blue)
   ## Description
-  description
+  descr
   ## Table of contents
 * [Installation](#installation)
 * [Usage](#usage)
 * [Credits](#credits)
   ## Installation
-  insta
+  inta
   ## Usage
   usage
   ## Contributing
