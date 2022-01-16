@@ -40,7 +40,26 @@ function renderLicenseLink(license) {
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) {}
+function renderLicenseSection(license) {
+    switch(license){
+        case "ISC Licence":
+            return `## License
+            Licensed under the `
+            break;
+        case "MIT License":
+            return `## License
+            Licensed under the `
+            break;
+        case "GNU General Public License v3.0":
+            return `## License
+            Licensed under the `
+            break;
+        case "NONE":
+            return ``
+            break;
+
+    };
+}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
@@ -65,8 +84,8 @@ function generateMarkdown(data) {
   ${data.test}
   ## Credits
   ${new Date().getFullYear()} by ${data.name}
-  ## License
-  Licensed under the ${renderLicenseLink(data.licence)}
+  ${renderLicenseSection(data.licence)}
+  ${renderLicenseLink(data.licence)}
 
 
 `;
