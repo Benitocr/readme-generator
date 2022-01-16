@@ -2,11 +2,13 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 const generateReadme = require('./utils/generateMarkdown.js');
+const { retry } = require('rxjs');
 
 
 // TODO: Create an array of questions for user input
  
 const questions = () =>{
+  
     return inquirer.prompt([
             /* Pass your questions in here */
             {
@@ -122,6 +124,7 @@ const questions = () =>{
                 default: '1'
             }
         ]);
+    
 }
 
 
@@ -141,7 +144,12 @@ function writeToFile(fileName, data ) {
 function init() {
     // writeToFile ('README.md', '#name of Readme');
     questions()
-     .then(answears => console.log(answears));
+     .then(answears => {
+         console.log(answears.licence);
+         writeToFile('README.md', answears.name);
+        });
+     
+     
 
 
 }
